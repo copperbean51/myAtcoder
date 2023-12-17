@@ -45,6 +45,16 @@
             },
         },
         {
+            "label": "pytest",
+            "type": "shell",
+            "command": "bash ${workspaceFolder}/cmd/python.sh",
+            "presentation": {
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+            },
+        },
+        {
             "label": "submit",
             "type": "shell",
             "command": "cd ${fileDirname} && acc submit ${file}",
