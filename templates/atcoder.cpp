@@ -14,6 +14,7 @@
 #include <stack>
 #include <string>
 #include <vector>
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -111,6 +112,22 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     // ----------------------------------------------------------------
+    // input
+    int N; 
+    cin >> N;
+
+    int A[100];
+    int L[100], R[100];
+    for (int i = 1; i <= N; i++) cin >> A[i];
+    for (int j = 1; j <= N; j++) cin >> L[j] >> R[j];
+    
+	vector<int> vec(N);
+
+    // output
+
+
+    // processing 
+
 
     // ----------------------------------------------------------------
     return 0;
